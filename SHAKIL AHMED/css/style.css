@@ -1,0 +1,97 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.left-section{
+    background:#222222;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+.title{
+    text-align: center;
+    color: white;
+    
+}
+.title-s{
+    color:#e38528;
+}
+.nav-list{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+.nav-list li{
+    display: block;
+    margin: 20px 0px;
+    
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    transition: .2s;
+
+}
+.nav-list li a:hover{
+    color:#e38528;
+    letter-spacing: 1px;
+
+}
+.social-icons {
+    text-align: center;
+    padding: 20px 0px;
+}
+.social-icons i{
+
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    transition: .4s;
+}
+.social-icons i:hover{
+    color:#e38528;
+    transform: scale(1.2);
+
+}
+.contents h5{
+    color:#e38528 ;
+    font-size: 30px;
+
+}
+.contents h2{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.home-title{
+    color:#e38528 ;
+}
+.contents h4{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.buttons{
+    border: none;
+    background:#e38528;
+    color: white;
+    padding: 5px 15px;
+    font-size: 20px;
+    transition: .5s;
+}
+.buttons:hover{
+    background: black;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.about-title{
+    
+    color:#e38528;
+}
